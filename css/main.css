@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Classes */
+
+.nav {
+    padding: 1%;
+    background-color: dodgerblue;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    color: white;
+    margin-right: 2%;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: gold;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+.intro {
+    animation: fade-in 2s ease-in;
+}
+
+.title {
+    text-align: center;
+}
+
+
+/* Ids */
+
+#h1 {
+    animation: fade-in ease-in 2s;
+}
+
+
+/* Semantic Tags */
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+article {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+ol li {
+    margin-left: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 2em;
+    margin: 0;
+}
+
+
+/* Animations */
+
+@keyframes fade-in {
+    0% {
+        width: 60%;
+        opacity: 30%;
+        color: yellow;
+    }
+    50% {
+        color: yellowgreen;
+    }
+    100% {
+        width: 100%;
+        opacity: 100%;
+        color: blue;
+    }
+}
